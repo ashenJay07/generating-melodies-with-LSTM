@@ -1,5 +1,23 @@
 ## Table of contents
 
+1. [Note](#note)
+2. [Pitch](#pitch)
+3. [Scientific Pitch Notation](#scientific-pitch-notation)
+4. [MIDI note notation](#midi-note-notation)
+5. [Note values](#note-values)
+6. [Melody](#melody)
+7. [Time Signature](#time-signature)
+8. [Key](#key)
+   1. [Tonic / Tonic note](#tonic--tonic-note)
+   2. [Number of keys](#number-of-keys)
+9. [Major / minor scale](#major--minor-scale)
+10. [Transposition](#transposition)
+11. [Music Representation](#music-representation)
+    1. [Idea 01: Sequences](#idea-01)
+    2. [Idea 02: Time series](#idea-02)
+12. [Example for time series representation](#example-for-time-series-representation)
+13. [Preparing melodies for LSTM ingestion](#preparing-melodies-for-lstm-ingestion)
+
 &nbsp;
 
 ## Note
@@ -163,7 +181,7 @@ We can't use western music notations as a inputs for Neural networks
 
 &nbsp;
 
-## Example for Time series representation
+## Example for time series representation
 
 - 4/4 time signature, its means each bar have 16 samples. Because we have 16 16th notes in a 4/4 bar
 - 4 samples per quater note
